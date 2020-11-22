@@ -863,7 +863,7 @@ body {
 .layer {
     width: 100%;
     height: 100%;
-    background-image: url("../images/bg.gif");
+    background-image: url(https://raw.githubusercontent.com/alcortazzo/alcortazzo.github.io/master/assets/images/bg.gif);
     background-size: cover;
     background-position: center
 }
