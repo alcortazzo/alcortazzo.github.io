@@ -1,14 +1,12 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
    <head>
-   	<script src="https://kit.fontawesome.com/a07d64ef7d.js"></script>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>alcortazzo</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="shortcut icon" href="assets/images/favicon.ico">
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
       <link href="assets/css/style.min.css" rel="stylesheet">
-      <link href="assets/css/type.css" rel="stylesheet">
       
       <style>
          #stars {
@@ -86,52 +84,52 @@
                     
                      <li class="menu-item">
                         <a href="https://t.me/alcortazzo" class="link link-social">
-                        <i class="fab fa-telegram" aria-hidden="true"></i>
+                        <i class="fa fa-telegram" aria-hidden="true"></i>
                         <span class="sr-only">Telegram</span>
                         </a>
                      </li>
                      <li class="menu-item">
-                        <a href="https://steamcommunity.com/profiles/76561198280054657" class="link link-social">
-                        <i class="fab fa-steam" aria-hidden="true"></i>
-                        <span class="sr-only">Steam</span>
-                        </a>
-                     </li>
-                     <li class="menu-item">
                         <a href="https://github.com/alcortazzo" class="link link-social">
-                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <i class="fa fa-github" aria-hidden="true"></i>
                         <span class="sr-only">GitHub</span>
                         </a>
                      </li>
                      <li class="menu-item">
+                        <a href="https://steamcommunity.com/profiles/76561198280054657" class="link link-social">
+                        <i class="fa fa-steam" aria-hidden="true"></i>
+                        <span class="sr-only">Steam</span>
+                        </a>
+                     </li>
+                     <li class="menu-item">
                         <a href="https://open.spotify.com/user/ky4qcgkodivi6mszapv8gdvgp" class="link link-social">
-                        <i class="fab fa-spotify" aria-hidden="true"></i>
+                        <i class="fa fa-spotify" aria-hidden="true"></i>
                         <span class="sr-only">Spotify</span>
                         </a>
                      </li>
                      <li class="menu-item">
                         <a href="https://twitter.com/alcortazzo" class="link link-social">
-                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
                         <span class="sr-only">Twitter</span>
                         </a>
                      </li>
-                     <li class="menu-item">
+                     <!--<li class="menu-item">
                         <a href="https://soundcloud.com/ipodarock" class="link link-social">
-                        <i class="fab fa-soundcloud" aria-hidden="true"></i>
+                        <i class="fa fa-soundcloud" aria-hidden="true"></i>
                         <span class="sr-only">SoundCloud</span>
                         </a>
-                     </li>
+                     </li>-->
                      <li class="menu-item">
                         <a href="https://www.youtube.com/channel/UCo3b3DQS0193gahdIJV3KGA" class="link link-social">
-                        <i class="fab fa-youtube" aria-hidden="true"></i>
+                        <i class="fa fa-youtube-play" aria-hidden="true"></i>
                         <span class="sr-only">YouTube</span>
                         </a>
                      </li>
-                     <li class="menu-item">
+                     <!--<li class="menu-item">
                         <a href="https://www.twitch.tv/alcortazz0" class="link link-social">
-                        <i class="fab fa-twitch" aria-hidden="true"></i>
+                        <i class="fa fa-twitch" aria-hidden="true"></i>
                         <span class="sr-only">Twitch</span>
                         </a>
-                     </li>
+                     </li>-->
 					 
                   </ul>
                </nav>
@@ -144,13 +142,11 @@
                  
                   <div class="site-branding m-b-64">
                      <header class="entry-header p-b-0 m-b-12">
-                        <h1 class="entry-title">alcortazzo / ipodarock</h1>
-                        <h5 class="cd-headline clip is-full-width">
-                        <span>Why did you come here?</span>
-               
-                        </h4>
+                        <h1 class="entry-title">alcortazzo</h1>
+                        <!--<h4 class="cd-headline clip is-full-width">
+                           <span>text2</span>
+                        </h4>-->
                      </header>
-                     <div class="entry-content"></div>
                   </article>
                </div>
             </main>
@@ -167,12 +163,12 @@
                         if (hours <= 9) hours = "0" + hours;
                         if (minutes <= 9) minutes = "0" + minutes;
                         if (seconds <= 9) seconds = "0" + seconds;
-                        date_time = hours + ":" + minutes + ":" + seconds;
+                           date_time = hours + ":" + minutes + ":" + seconds;
                         if (document.layers) {
-                        document.layers.doc_time.document.write(date_time);
-                        document.layers.doc_time.document.close();
+                           document.layers.doc_time.document.write(date_time);
+                           document.layers.doc_time.document.close();
                         } else document.getElementById("doc_time").innerHTML = date_time;
-                        setTimeout("clock()", 1000);
+                           setTimeout("clock()", 1000);
                         }
                      </script>
                      <script type="text/javascript">
@@ -183,41 +179,5 @@
             </footer>
          </div>
       </div>
-      
-     
-      <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="pswp__bg"></div>
-      <div class="pswp__scroll-wrap">
-      <div class="pswp__container">
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-      </div>
-      <div class="pswp__ui pswp__ui--hidden">
-      <div class="pswp__top-bar">
-      <div class="pswp__counter"></div>
-      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-      <div class="pswp__preloader">
-      <div class="pswp__preloader__icn">
-      <div class="pswp__preloader__cut">
-      <div class="pswp__preloader__donut"></div>
-      </div>
-      </div>
-      </div>
-      </div>
-      <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
-      <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
-      <div class="pswp__caption">
-      <div class="pswp__caption__center"></div>
-      </div>
-      </div>
-      </div>
-      </div>
-      </div>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> 
-      <script src="assets/js/type.js"></script>
-      <script src="assets/js/config.js"></script>
-      <script src="assets/js/concat.min.js"></script>
    </body>
 </html>
